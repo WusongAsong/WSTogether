@@ -1,7 +1,6 @@
-
 Pod::Spec.new do |s|
-  s.name             = 'Together'
-  s.version          = '2.0.0'
+  s.name             = 'WSTogether'
+  s.version          = '2.1.0'
   s.summary          = '自定义'
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
@@ -12,7 +11,7 @@ TODO: Add long description of the pod here.
   s.author           = { 'WusongAsong' => '13817407397@163.com' }
   s.source           = { :git => 'https://github.com/WusongAsong/WSTogether.git', :tag => s.version.to_s }
   s.ios.deployment_target = '9.0'
-  s.source_files = 'Together/Classes/**/*'
+  s.source_files = 'WSTogether/Classes/**/*'
   s.frameworks = 'UIKit'
   s.dependency 'AFNetworking'
    
