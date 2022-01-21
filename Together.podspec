@@ -8,13 +8,13 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Together'
-  s.version          = '1.0.0'
+  s.version          = '1.1.0'
   s.summary          = '自定义'
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/wusong560/Together'
+  s.homepage         = 'https://github.com/WusongAsong/WSTogether.git'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'WusongAsong' => '13817407397@163.com' }
   s.source           = { :git => 'https://github.com/WusongAsong/WSTogether.git', :tag => s.version.to_s }
