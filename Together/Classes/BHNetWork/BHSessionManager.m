@@ -70,7 +70,7 @@ static dispatch_queue_t serialQueue;
 #pragma mark - 自己的带参数的 get post(参数是放在url后面) +++++++++++++++++++++++++
 -  (NSURLSessionDataTask *)request:(NSString *)method
                             action:(NSString *)action
-                            params:(NSArray *)params
+                            params:(NSDictionary *)params
                            success:(void (^)(NSURLSessionDataTask *task, id responseObject))success
                            failure:(void (^)(NSURLSessionDataTask * task, NSError *error))failure{
     

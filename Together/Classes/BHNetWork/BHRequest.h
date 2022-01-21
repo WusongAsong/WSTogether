@@ -11,16 +11,10 @@
 @interface BHRequest : NSObject
 
 + (NSURLSessionDataTask *_Nonnull)postWithAction:(NSString *_Nullable)action
-                              parameters:(NSArray * __nullable)parameters
+                              parameters:(NSDictionary * __nullable)parameters
                                          success:(nullable void (^)(NSURLSessionDataTask * _Nonnull task, id _Nullable responseObject))success
                                          failure:(nullable void (^)(NSURLSessionDataTask * _Nullable task, NSError * _Nullable error))failure;
 
-
-#pragma mark - get
-+ (NSURLSessionDataTask *_Nonnull)getWithAction:(NSString *_Nonnull)action
-                             parameters:(NSArray * __nullable)parameters
-                                success:(nullable void (^)(NSURLSessionDataTask * _Nullable task, id _Nullable responseObject))success
-                                failure:(nullable void (^)(NSURLSessionDataTask * _Nullable task, NSError * _Nullable error))failure;
 
 
 @end

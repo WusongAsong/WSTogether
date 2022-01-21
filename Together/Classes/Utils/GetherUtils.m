@@ -97,13 +97,6 @@
                            @"startTstp":[GetherUtils getCurrentTimes],};
     
     [BHRequest postWithAction:[SaveData shardInstance].baseURL parameters:dict success:success failure:failure];
-    
-//    [BHRequest postWithAction:[SaveData shardInstance].baseURL parameters:@[dict] success:^(NSURLSessionDataTask *task, id  _Nullable responseObject) {
-//        NSLog(@"成功了：%@",[responseObject description] );
-//    } failure:^(NSURLSessionDataTask * _Nullable task, NSError *error) {
-//        NSLog(@"失败了");
-//    }];
-    
 }
 
 @end

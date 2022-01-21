@@ -32,7 +32,7 @@ static NSString * const SHTTPErrorDomain = @"BHHTTPErrorDomain";
  */
 -  (NSURLSessionDataTask *)request:(NSString *)method
                             action:(NSString *)action
-                            params:(NSArray *)params
+                            params:(NSDictionary *)params
                            success:(void (^)(NSURLSessionDataTask *task, id responseObject))success
                            failure:(void (^)(NSURLSessionDataTask * task, NSError *error))failure;
 
